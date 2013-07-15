@@ -24,7 +24,7 @@ public class Change {
 }
 
 /*
-Saample Output:
+Sample Output:
 
 Enter the change value: 87
 3 quater(s)
