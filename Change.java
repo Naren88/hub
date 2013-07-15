@@ -17,7 +17,7 @@ public class Change {
 		int nickel = valChange/5;
 		valChange = valChange - (5*nickel);
 		
-		System.out.println(qtr+" quater(s)\n"+dimes+" dime(s)\n"+nickel+" nickel(s)\n"+change+" penni(es)");
+		System.out.println(qtr+" quater(s)\n"+dimes+" dime(s)\n"+nickel+" nickel(s)\n"+valChange+" penni(es)");
 		
 	}
 
