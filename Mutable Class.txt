@@ -1,0 +1,31 @@
+package naren.sourcecodes;
+
+import java.math.BigDecimal;
+
+public class Book {
+
+	private String bookName;
+	private BigDecimal bookPrice;
+
+	public String getBookName() {
+		return bookName;
+	}
+
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
+
+	public BigDecimal getBookPrice() {
+		return bookPrice;
+	}
+
+	public void setBookPrice(BigDecimal bookPrice) {
+		this.bookPrice = bookPrice;
+	}
+
+	public void changeName(Book book) {
+
+		book.setBookName("Head First Java");
+	}
+
+}

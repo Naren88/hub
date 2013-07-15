@@ -1,0 +1,22 @@
+package naren.sourcecodes;
+
+public class Apple {
+
+	public Apple(String colour) {
+
+		this.colour = colour;
+
+	}
+
+	final private String colour;
+
+	public Apple changeColour(Apple app) {
+
+		return new Apple(app.getColour());
+	}
+
+	public String getColour() {
+		return colour;
+	}
+
+}

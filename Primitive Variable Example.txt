@@ -1,0 +1,1 @@
+package naren.sourcecodes;public class PrimitiveVariableExample {	public static void main(String[] args) {		int i = 5;		System.out.println(i);		change(i);		System.out.println(i);		}		static void change(int j) {            System.out.println(j);			j = 6;		}	}
