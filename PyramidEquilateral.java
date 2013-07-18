@@ -1,4 +1,5 @@
 /*
+    Sample Output:
 
     Enter the number of lines: 5
           1
